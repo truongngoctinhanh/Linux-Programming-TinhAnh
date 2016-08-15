@@ -22,6 +22,7 @@ void main()
 		printf("Nhap mau so:\n");
 		scanf("%d", &(a+i)->mau);
 	}
+	printf("Phan so da nhap la: \n");
 	for(int i=0;i<n;i++)
 		printf("%d/%d \t", (a+i)->tu, (a+i)->mau);
 	printf("\n");
